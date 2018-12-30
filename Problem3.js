@@ -12,7 +12,7 @@ const getAllFactorsFor = remainder => {
 	        remainder /= i;
 	    }
 	}
-	console.log(result.sort((a, b) => b > a)[0]);
+	console.log(factors.sort((a, b) => b > a)[0]);
 }
 
 getAllFactorsFor(600851475143);
